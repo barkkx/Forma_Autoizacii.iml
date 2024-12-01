@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@keyframes backgroundMove {
+    100% {
+        background-position: 15% 15%;
+    } 
+}
+
+body {
+    color:black;
+    font-family: "Open Sans", serif;
+    font-style: normal;
+    display:flex;
+    justify-content:center;
+    height:inherit;
+    overflow:hidden;
+    background-image: url("https://i.pinimg.com/originals/76/5e/d0/765ed0f069a8ef0ee8bf11b255b740eb.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    animation: backgroundMove 6s linear infinite alternate;
+    align-items: center;
+}
+
+.authorization_form {
+width: 30%;
+padding:50px 30px 44px;
+border-radius:1.25rem;
+text-align:center;
+background-color:#f0f0f0;
+}
+
+h1 {
+font-size:36px;
+bold:600;
+margin-bottom:12px;
+}
+
+.web_form {
+display:flex;
+flex-direction:column;
+margin:0 auto;
+}
+
+input {
+margin: 0 auto;
+width:80%;
+border:solid 2px;
+border-color:#ebebeb;
+font-size:15px;
+padding-right:20px;
+padding-left:20px;
+margin-bottom:20px;
+border-radius:1.25rem;
+height:50px;
+}
+
+button {
+height:50px;
+margin:0 auto;
+width: 85%;
+padding-left:16px;
+padding-right:16px;
+margin-top:20px;
+border-radius:1.25rem;
+border:0;
+font-size:1rem;
+font-weight:bold:600;
+line-height:2px;
+text-align:center;
+background-color:#5b1098;
+color:#f9f9f9;
+cursor:pointer;
+}
+
+a {
+color:#5b1098;
+font-size:0.9rem;
+text-align:left;
+text-decoration:none;
+margin-left:10%;
+}
+
+input:hover {
+border:solid 2px;
+border-color:#10449A;
+transition: all 0.375s;
+}
+
+button:hover {
+background-color:#981086;
+transition: all 0.375s;
+}
+
+a:hover {
+color:#981086;
+transition: all 0.375s;
+}
+
+html {
+height:100%;
+}
